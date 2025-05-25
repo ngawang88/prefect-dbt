@@ -89,13 +89,13 @@ def import_members(ctx):
     logger.info(f"Columns: {members_df.columns.tolist()}")
     logger.info(members_df.head().to_string())
 
-    # TODO: Insert into DB (rc_rawMembers) using SQLAlchemy if needed
-    # Example:
-    # db_conn = os.environ.get('DB_CONN_STRING')
-    # if db_conn:
-    #     engine = create_engine(db_conn)
-    #     members_df.to_sql('rc_rawMembers', engine, if_exists='append', index=False)
-    # else:
-    #     logger.warning('No DB_CONN_STRING set, skipping DB load.')
+    # Save validated data as CSV in dbt seeds folder
+    seeds_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../dbt/sch_tranform/seeds'))
+    logger.info(f"Resolved seeds_dir: {seeds_dir}")
+    os.makedirs(seeds_dir, exist_ok=True)
+    seed_csv_path = os.path.join(seeds_dir, 'members_validated.csv')
+    logger.info(f"Saving CSV to: {seed_csv_path}")
+    members_df.to_csv(seed_csv_path, index=False)
+    logger.info(f"Saved validated members data to {seed_csv_path}")
 
     return members_df

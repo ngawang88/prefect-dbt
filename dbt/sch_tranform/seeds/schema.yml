@@ -1,0 +1,10 @@
+version: 2
+
+seeds:
+  - name: members_validated
+    config:
+      column_types:
+        Phone: varchar(32)
+        Mobile: varchar(32)
+        MemberID: varchar(32)
+        # Add more columns here if you have other large numbers or IDs
