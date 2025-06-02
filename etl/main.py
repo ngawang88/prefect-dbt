@@ -36,8 +36,8 @@ def run_dbt_run():
 @flow
 def mainFull():
     import2raw()
-    run_dbt_seed()
-    run_dbt_run()
+    #run_dbt_seed()
+    #run_dbt_run()
 
 
 

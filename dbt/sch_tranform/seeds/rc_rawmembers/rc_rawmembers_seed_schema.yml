@@ -1,0 +1,93 @@
+version: 2
+
+seeds:
+  - name: rc_rawmembers_seed
+    config:
+      column_types:
+        MemberCount: integer
+        MemberNo: varchar(32)
+        MemberID: varchar(32)
+        Surname: varchar(255)
+        GivenNames: varchar(255)
+        UserName: varchar(255)
+        ActiveStatus: varchar(32)
+        Registered: varchar(32)
+        Verified: varchar(32)
+        Referred: varchar(32)
+        Email: varchar(255)
+        CardType: varchar(64)
+        FavouriteStoreName: varchar(255)
+        FavouriteStoreID: varchar(32)
+        IssuingStoreName: varchar(255)
+        IssuingStoreID: varchar(32)
+        DateOfBirth: date
+        RegistrationDateTime: timestamp
+        RegistrationDate: date
+        RegistrationTime: varchar(32)
+        VerificationDateTime: timestamp
+        VerificationDate: date
+        ExpiryDateTime: timestamp
+        ExpiryDate: date
+        LastUpdateDate: date
+        LastUpdateDateTime: timestamp
+        CreationDate: date
+        Sex: varchar(16)
+        SendEmail: varchar(8)
+        SendSMS: varchar(8)
+        Phone: varchar(32)
+        Mobile: varchar(32)
+        State: varchar(32)
+        PostCode: varchar(16)
+        Address1: varchar(255)
+        Address2: varchar(255)
+        Suburb: varchar(128)
+        Country: varchar(64)
+        DeviceID: varchar(64)
+        DeviceType: varchar(64)
+        PackageName: varchar(128)
+        GroupName: varchar(128)
+        GroupID: varchar(32)
+        PointsAwarded: float
+        PointsRedeemed: integer
+        MoneyAwarded: float
+        MoneyRedeemed: float
+        PointsBalance: float
+        MoneyBalance: float
+        LastTxnDate: date
+        FirstTxnDate: date
+        LastTxnDateTime: timestamp
+        FirstTxnDateTime: timestamp
+        LastAdminTxnDate: date
+        FirstAdminTxnDate: date
+        LastAdminTxnDateTime: timestamp
+        FirstAdminTxnDateTime: timestamp
+        VerificationType: varchar(32)
+        source_name: varchar(128)
+        source_row_count: integer
+    columns:
+      - name: MemberID
+        description: Unique identifier for each member
+        tests:
+          - unique
+          - not_null
+      - name: Email
+        description: Email address of the member
+        tests:
+          - not_null
+          - unique
+      # - name: FavouriteStoreID
+      #   description: Store ID of the member's favourite store
+      #   tests:
+      #     - relationships:
+      #         to: ref('store_table')
+      #         field: StoreID
+      - name: DateOfBirth
+        description: Date of birth of the member
+        tests:
+          - not_null
+      - name: PointsBalance
+        description: Current points balance for the member
+        tests:
+          - not_null
+          - accepted_range: {min_value: 0}
+

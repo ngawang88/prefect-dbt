@@ -32,5 +32,10 @@ clean-targets:         # directories to be removed by `dbt clean`
 models:
   sch_tranform:
     # Config indicated by + and applies to all files under models/example/
-    example:
-      +materialized: view
+    # raw:
+    #   +schema: raw
+    # cdm:
+    #   +schema: cdm
+    # prs:
+    #   +schema: prs
+    #   +materialized: view

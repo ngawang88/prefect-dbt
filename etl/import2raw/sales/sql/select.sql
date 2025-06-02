@@ -1,0 +1,1 @@
+SELECT * FROM public.rc_rawmembers;

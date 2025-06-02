@@ -87,13 +87,13 @@ def import_members(ctx):
     members_df = pd.concat(all_members, ignore_index=True)
     logger.info(f"Total members loaded: {len(members_df)}")
     logger.info(f"Columns: {members_df.columns.tolist()}")
-    logger.info(members_df.head().to_string())
+    #logger.info(members_df.head().to_string())
 
     # Save validated data as CSV in dbt seeds folder
     seeds_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '../../../dbt/sch_tranform/seeds'))
     logger.info(f"Resolved seeds_dir: {seeds_dir}")
     os.makedirs(seeds_dir, exist_ok=True)
-    seed_csv_path = os.path.join(seeds_dir, 'members_validated.csv')
+    seed_csv_path = os.path.join(seeds_dir, 'rc_rawmembers/rc_rawmembers_seed.csv')
     logger.info(f"Saving CSV to: {seed_csv_path}")
     members_df.to_csv(seed_csv_path, index=False)
     logger.info(f"Saved validated members data to {seed_csv_path}")

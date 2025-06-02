@@ -1,0 +1,1 @@
+ID,HeaderID,ActualAmount,Amount,POSMediaType,POSMediaTypeName,Description,MediaDate,MediaTime,MediaDateTime,SaleHeader.ID,SaleHeader.SalesID,SaleHeader.LocationID,SaleHeader.LocationMixFile.RealTimeTxn,SaleHeader.POSSaleType,SaleHeader.BitMask,SaleHeader.SubTotal,SaleHeader.TxnDate,SaleHeader.TxnTime,SaleHeader.TxnDateTime,MemberNo,ChangeAmount

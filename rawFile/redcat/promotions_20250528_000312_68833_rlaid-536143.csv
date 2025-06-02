@@ -1,0 +1,11 @@
+ActiveStatus,CategoryList,ClassList,Days,Extra,FinishDate,FinishTime,ID,LocationList,LocationRestricted,MemberSegmentList,Money,Name,PLUList,Points,StartDate,StartTime,TimeLockPeriod,TotalRedemptions,Type
+1,null,null,127,,2021-02-28T23:00:00,,1,null,0,null,0,"Golden Oldie Dbl Points",[1125],2,2021-01-27T12:00:00,,0,313,1
+1,null,null,127,,2022-10-16T23:30:00,,3,null,0,null,0,"Signup 250 Points ",null,250,2022-07-18T10:00:00,,0,0,3
+1,null,null,127,,2022-10-04T11:00:00,,4,[5],1,[72],0,"Test - Double",null,2,2022-09-27T11:00:00,,0,1,1
+1,null,null,64,,2022-11-29T23:30:00,,5,null,0,null,0,"10 x Crumbs",null,10,2022-10-17T00:00:00,,0,5243,1
+1,null,null,4,,2022-11-25T23:30:00,,6,null,0,null,0,"Black Friday - Triple Crumbs",null,3,2022-11-25T00:00:00,,0,1355,1
+1,null,null,127,,2022-12-26T23:30:00,,7,null,0,null,0,"Boxing Day 22",null,3,2022-12-26T00:00:00,,0,767,1
+1,null,null,8,,2023-01-26T23:30:00,,8,null,0,null,0,"Australia Day 23",null,3,2023-01-26T00:00:00,,0,813,1
+1,null,null,127,,2023-10-01T23:30:00,,9,null,0,null,0,"Double Crumbs",null,2,2023-09-25T00:00:00,,0,6069,1
+1,null,null,127,,2023-10-29T23:30:00,,10,null,0,null,0,"Triple Crumbs - October 23",[164],3,2023-10-23T10:30:00,,0,936,1
+1,null,null,4,,2023-11-25T00:00:00,,11,null,0,null,0,"Black Friday 23 - 10x Crumbs",null,10,2023-11-24T00:00:00,,0,1736,1

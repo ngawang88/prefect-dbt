@@ -1,0 +1,109 @@
+Recid,CategoryName,Description,Bitmask,LinkedItemID,LinkedItemType,LongName
+-400,"System Inst","System Inst",256,0,0,
+-300,"POS Surcharges","POS Surcharges",0,0,0,
+-200,"POS Discounts","POS Discounts",0,0,0,
+-100,System,System,0,0,0,
+-40,"System Inst","System Inst",0,0,0,
+-30,"POS Surcharges","POS Surcharges",0,0,0,
+-20,"POS Discounts","POS Discounts",0,0,0,
+-10,System,System,0,0,0,
+-4,"System Inst","System Inst",256,0,0,
+-3,"POS Surcharges","POS Surcharges",0,0,0,
+-2,"POS Discounts","POS Discounts",0,0,0,
+-1,System,System,0,0,0,
+1,Wraps&Rolls,Wraps&Rolls,8,0,0,Wraps&Rolls
+2,Schnitzels,Schnitzels,8,0,0,Schnitzels
+3,Salads,Salads,8,0,0,Salads
+4,Z_Vegan,Z_Vegan,8,0,0,Vegan
+5,Snacks,Snacks,8,0,0,Snacks
+6,Kids,Kids,8,0,0,Kids
+7,"Wraps & Rolls","Wraps & Rolls",520,0,0,"Wraps & Rolls"
+8,Schnitzels,Schnitzels,1544,0,0,Schnitzels
+9,Salads,Salads,1544,0,0,Salads
+10,Vegan,Vegan,1544,0,0,Vegan
+11,Snacks,Snacks,1544,0,0,Snacks
+12,Kids,Kids,1544,0,0,Kids
+13,C_BreadType,C_BreadType,3848,0,0,C_BreadType
+15,C_CrumbType,C_CrumbType,3848,0,0,C_CrumbType
+16,Additions,Additions,3848,0,0,Additions
+17,Remove,Remove,7944,0,0,Remove
+18,C_Sides,C_Sides,3848,0,0,C_Sides
+19,Choices,Choices,8,0,0,Choices
+20,Additions,Additions,8,0,0,Add
+21,Remove,Remove,8,0,0,Remove
+22,Dips,Dips,520,0,0,Dips
+23,Dips,Dips,8,0,0,Dips
+24,Sides,Sides,1544,0,0,Sides
+25,Sides,Sides,8,0,0,Sides
+26,"Non Alcoholic","Non Alcoholic",8,0,0,"Non Alcoholic"
+27,_Backupp,_Backupp,1544,0,0,Backup
+28,Schnitz_SalADD,Schnitz_SalADD,3848,0,0,Schnitz_SalADD
+29,Other,Other,1544,0,0,Other
+30,"Small Drinks","Small Drinks",1544,0,0,"300ml Drinks"
+31,"Regular Drinks","Regular Drinks",1544,0,0,"600ml Drinks"
+34,_Bundles,_Bundles,1544,0,0,_Bundles
+35,_Bundles,_Bundles,8,0,0,_Bundles
+36,Meal,Meal,1536,0,0,"Make It A Meal?"
+37,Meal,Meal,8,0,0,Meal
+38,Substitute,Substitute,3848,0,0,Substitute
+39,Substitute,Substitute,8,0,0,Substitute
+41,Schnitzel_Salad,Schnitzel_Salad,3848,0,0,Schnitzel_Salad
+42,Schnitz_Chip,Schnitz_Chip,3848,0,0,Schnitzel_Chips
+43,Sauces,Sauces,8,0,0,Sauces
+44,Sauces,Sauces,3848,0,0,Sauces
+45,I_Schnitzel,I_Schnitzel,1544,0,0,I_Schnitzel
+46,Ingredients,Ingredients,8,0,0,Ingredients
+47,I_Parma,I_Parma,1800,0,0,I_Parma
+48,Alcoholic,Alcoholic,8,0,0,Alcoholic
+49,Alcohol,Alcohol,520,0,0,Alcohol
+50,WMO,WMO,1544,0,0,WMO
+51,C_U_Crumb,C_U_Crumb,3848,0,0,C_U_Crumb
+52,C_U_Schnitzel,C_U_Schnitzel,3848,0,0,C_U_Schnitzel
+53,I_Crumb,I_Crumb,1544,0,0,I_Crumb
+54,Production,Production,776,0,0,Production
+55,I_Cook,I_Cook,1544,0,0,I_Cook
+56,C_ParmaType,C_ParmaType,3848,0,0,C_ParmaType
+57,LTOs,LTOs,520,0,0,"Limited Time Offers"
+58,"Premium Drinks","Premium Drinks",1544,0,0,"Premium Drinks"
+59,"Kids Drinks","Kids Drinks",1544,0,0,"Kids Drinks"
+60,I_Pass,I_Pass,1800,0,0,I_Pass
+61,Preparation,Preparation,256,0,0,"Prep Instructions"
+62,Dietary,Dietary,256,0,0,Dietary
+63,"Tea & Coffee","Tea & Coffee",1544,0,0,"Tea & Coffee"
+64,"Local Drinks","Local Drinks",1544,0,0,"Local Drinks"
+65,I_System,I_System,1800,0,0,I_System
+66,RemoveCook,RemoveCook,20232,0,0,RemoveCook
+67,I_Chips,I_Chips,1544,0,0,I_Chips
+68,C_MilkType,C_MilkType,1800,0,0,C_MilkType
+69,"Tea&Coffee Add","Tea&Coffee Add",3848,0,0,"Tea&Coffee Add"
+70,"Tea&Coffee Mods","Tea&Coffee Mods",3848,0,0,"Tea&Coffee Mods"
+71,"Tea&Coffee Mods","Tea&Coffee Mods",8,0,0,"Tea&Coffee Mods"
+72,Discounts,Discounts,8,0,0,Discounts
+73,Z_ARCHIVE,Z_ARCHIVE,8,0,0,Z_ARCHIVE
+74,Web_Items,Web_Items,8,0,0,Web_Items
+75,WebOrder,WebOrder,1544,0,0,WebOrder
+76,Catering,Catering,8,0,0,Catering
+77,Desserts,Desserts,0,0,0,Deserts
+78,Promotions/OO,Promotions/OO,8,0,0,Promotions
+79,Track,Track,1544,0,0,Tracking
+80,C_P_ParmaType,C_P_ParmaType,3848,0,0,C_P_ParmaTypeType
+81,C_C_ParmaType,C_C_ParmaType,3848,0,0,C_C_ParmaType
+82,C_CS_ParmaType,C_CS_ParmaType,3848,0,0,C_CS_ParmaType
+83,I_Gravy,I_Gravy,1544,0,0,I_Gravy
+84,"Gift Card","Gift Card",8,0,0,"Gift Card"
+85,"Gift Card","Gift Card",8,0,0,"Gift Card"
+86,I_ParmaRemove,I_ParmaRemove,18184,0,0,I_ParmaRemove
+87,I_ParmaAddition,I_ParmaAddition,1800,0,0,I_ParmaAddition
+88,_Backup,_Backup,1544,0,0,Backup
+89,_Production,_Production,1544,0,0," Production"
+90,NoPrint,NoPrint,520,0,0,NoPrint
+91," Z_Archive"," Z_Archive",8,0,0,Z_Archive
+92,Retail,Retail,8,0,0,Retail
+93,OnTheGo,OnTheGo,8,0,0,OnTheGo
+94,Events,Events,0,0,0,Events
+95,Schnitz_KidsC,Schnitz_KidsC,3848,0,0,Schnitz_KidsC
+96,C_Catering,C_Catering,3848,11,1,Catering_Snacks
+97,I_Fryer,I_Fryer,1544,0,0,I_Fryer
+98,I_Schnug,I_Schnug,1544,0,0,I_Schnug
+99,I_FryerPrep,I_FryerPrep,8,0,0,I_FryerPrep
+100,ParmaAdditions,ParmaAdditions,3848,8,1,ParmaAdditions

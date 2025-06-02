@@ -1,0 +1,13 @@
+
+version: 2
+
+models:
+  - name: cdmcustomer
+    description: "This model represents the customer data in the CDM schema, containing detailed information about each customer."
+    columns:
+      - name: MemberID
+        description: "Unique identifier for each member"
+        data_type: varchar(32)
+        tests:
+          - unique
+          - not_null
